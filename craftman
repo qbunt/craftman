@@ -126,7 +126,7 @@ SETVAR
         libpng-dev \
         libmagickwand-dev \
         vim curl git wget unzip \
-        && docker-php-ext-install -j$(nproc) iconv mcrypt 
+        && docker-php-ext-install -j$(nproc) mcrypt 
 SETVAR
 )
   CM_CUSTOM_INSTALL=""
