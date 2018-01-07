@@ -15,7 +15,7 @@ craftman_latest_version() {
 }
 
 craftman_source() {
-  echo "https://github.com/gabrielmoreira/craftman.git"
+  echo "https://github.com/qbunt/craftman.git"
 }
 
 install_craftman_from_git() {
